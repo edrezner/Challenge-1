@@ -5,9 +5,9 @@ This repository is refactored code from a sample website.
 
 ## Repository and Website URL
 
-[Git Repo](https://github.com/edrezner/Challenge-1)
+[Git Repo](https://github.com/edrezner/Horiseon)
 
-[Website](https://edrezner.github.io/Challenge-1)
+[Website](https://edrezner.github.io/Horiseon)
 
 
 ## Website Image
