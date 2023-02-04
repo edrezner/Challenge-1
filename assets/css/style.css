@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-/* sets styling for element selectors */
+/* Sets styling for element selectors */
 body {
     background-color: #d9dcd6;
 }
@@ -19,7 +19,8 @@ p {
     font-size: 16px;
 }
 
-/* sets styling for all class selectors */
+/* Following class selectors style and position various headers including the main header and 
+the navigation menu headers */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -53,6 +54,8 @@ p {
     margin-left: 25px;
 }
 
+/* Sets an image from the directory folder that creates space between the header and navigation elements
+from the main page content. */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,6 +65,9 @@ p {
     background-position: center;
 }
 
+/* Positions the content that comprises the bulk of the page underneath the .hero class.
+Since the display of .content (main element/parent element) is set to inline-block it allows the following
+(aside element) class selectors' content to be  positioned adjacent to it. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -78,6 +84,9 @@ p {
     margin-left: 20px;
 }
 
+/* Styles and positions another set of content adjacent to the above class selectors. Many of the 
+following class selectors have identical font, color, margin settings, etc. so they've been 
+consolidated where appropriate. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,6 +98,7 @@ p {
     background-color: #2589bd;
 }
 
+/* The following class selectors were consolidated. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -123,6 +133,7 @@ p {
     font-size: 36px;
 }
 
+/* Styles and sets font of the footer element (.footer class selector). */
 .footer {
     padding: 30px;
     clear: both;

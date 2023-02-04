@@ -1,12 +1,19 @@
+<!-- Sets the webpage type to HTML and language to English. -->
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- The head section does not contain info seen on the site itself. 
+It contains a title element for SEO, links our CSS file and uses the UTF-8 character set
+that covers most characters/symbols in use. -->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon</title>
 </head>
 
+<!-- The body element begins with a header containing the company name.
+A navigation menu is also set via an unordered list that will be able to link to sppropriate sections on 
+the page when clicked. -->
 <body>
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
@@ -24,6 +31,9 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Sets section with Horiseon services containing images from our directory; each article element 
+    has an ID for the <nav> element links to jump to.-->
     <section class="hero"></section>
     <main class="content">
         <article id="search-engine-optimization" class="search-engine-optimization">
@@ -48,6 +58,9 @@
             </p>
         </article>
     </main>
+
+    <!-- Sets adjacent content (the previous main element/.content class is set to inline-block in CSS file)
+    with other services Horiseon offers.-->
     <aside class="benefits">
         <article class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -71,6 +84,7 @@
             </p>
         </article>
     </aside>
+    <!-- Sets a footer to end the page content.-->
     <footer class="footer">
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
@@ -78,5 +92,5 @@
         </p>
     </footer>
 </body>
-
+<!-- Closing HTML tag after closing body tag.-->
 </html>
